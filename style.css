@@ -1,0 +1,35 @@
+body {
+    background: rgb(182, 182, 182);
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.strip {
+    min-height: 350px;
+    background-image: url(img/strip.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.box-media {
+    min-height: 200px;
+}
+
+.box-media .disc a {
+    text-decoration: none;
+}
+
+.box-media .disc a:hover {
+    color: rgb(155, 104, 38) !important;
+}
+
+.disc {
+    height: 200px;
+}
